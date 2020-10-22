@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Formulaire Liste de Naissance</title>
+  <link rel="stylesheet" href="liste.css">
+</head>
+<form action="/liste.html" method="post">
+    <h2>Formulaire pour la liste de naissance</h2>
+    <table>
+    <div>
+        <label for="name">Nom :</label>     
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">e-mail :</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+    <div class="button">
+        <button type="submit"><a href="liste.html">Envoyer le message</a></button>
+    </div>
+</table>
+</form>
+</body>
+</html>
